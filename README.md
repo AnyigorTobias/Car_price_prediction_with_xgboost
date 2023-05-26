@@ -9,6 +9,19 @@ Economic benefits of the model:
 ## the dataset
 The data was sourced from a public datas source, kaggle. 
 features of the dataset
+Columns: Unnamed, Make, Year of manufacture, Condition, Mileage, Engine Size, fuel, Transmission, price, build
+
+## Data preparation
+
+Here are few activities carried out to get the data ready
+* removal of unecessary columns
+* ensuring appropriate datatypes
+* removal of outliers
+* use of dictvectoriser to transform categorical data
+
+## Model selection
+Choosing a preferred model could turn to a herculean task. In this project, lazypredict, an automl was used to select the preferred model. XGB regressor was chosen.
+
 
 ## Model parameter selection
 The model parameters were estimated using the randomized search cv
